@@ -637,6 +637,10 @@
 	&__text {
 		grid-column: 1/2;
 		margin-bottom: 70px;
+		transition: margin-bottom 0.7s linear;
+		.article-rating__descriptin--active & {
+			margin-bottom: 30px;
+		}
 		@media (max-width: 1239.98px) {
 			font-size: 12px;
 		}
