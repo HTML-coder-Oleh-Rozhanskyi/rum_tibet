@@ -1,0 +1,382 @@
+<main class="page">
+	<section class="page__top top" id="top">
+		<div class="top__container">
+			<h1 class="top__title">Насладись прогулкой в горах с командой единомышленников</h1>
+			<form class="top__form" action="#" method="GET">
+				<div class="top__wrap-form">
+					<select class="top__item-form top__item-form--select" name="location" id="location" required>
+						<option class="top__option-form" value="">Локация для тура</option>
+						<option class="top__option-form" value="Brela Croatia">Брела Хорватия</option>
+						<option class="top__option-form" value="Pamukkale Turkey">Памуккале Турция</option>
+						<option class="top__option-form" value="Bora-Bora Spain">Бора-Бора Испания</option>
+						<option class="top__option-form" value="Majorca Spain">Майорка Испания</option>
+					</select>
+					<label class="top__label-form" for="location">выберите из списка</label>
+				</div>
+				<div class="top__wrap-form ">
+					<div class="top__date-wrap-form">
+						<input class="top__item-form top__item-form--data" type="date" id="start-date" name="start-date" />
+						<input class="top__item-form top__item-form--data" type="date" id="end-date" name="end-date" />
+					</div>
+					<label class="top__label-form" for="start-date">укажите диапазон</label>
+				</div>
+				<div class="top__wrap-form top__wrap-form--number">
+					<input class="top__item-form top__item-form--number" id="member" type="number" min="4" max="16" step="1" value="4" placeholder="Участники" name="members">
+					<span class="top__bth-number top__bth-number--top"></span><span class="top__bth-number top__bth-number--bottom"></span>
+					<label class="top__label-form" for="member">минимум 4 человека</label>
+				</div>
+				<button type="submit" class="top__btn-form btn btn--big">Найти программу</button>
+			</form>
+			<a href="#!" class="top__btn-form top__btn-form--none btn btn--big ">Найти программу</a>
+		</div>
+	</section>
+	<section class="page__hike hike">
+		<div class="hike__container">
+			<div class="hike__media">
+				<picture class="hike__img">
+					<source srcset="img/hike/01.avif" type="image/avif">
+					<source srcset="img/hike/01.webp" type="image/webp">
+					<img src="img/hike/01.jpg" alt="На фотографии изображен вершина скалы в снегу. Туча обволакивает скалу" width="350" height="400" loading="lazy">
+				</picture>
+				<iframe class="hike__video" loading="lazy" width="350" height="400" src="https://www.youtube.com/embed/EvKueQnsdlw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<div class="hike__description">
+				<h2 class="hike__titile title">о нашем походе</h2>
+				<h3 class="hike__subtitle subtitle">Исследуйте все горные массивы мира вместе с нами</h3>
+				<p class="hike__text text">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+				<a href="#!" class="hike__btn btn btn--big">Программа тура</a>
+			</div>
+		</div>
+	</section>
+	<section class="page__offer offer" id="tour guide">
+		<div class="offer__container">
+			<div class="offer__description">
+				<h2 class="offer__title title">наше предложение</h2>
+				<h3 class="offer__subtitle subtitle">Лучшие программы для тебя</h3>
+				<p class="offer__text text">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
+				<ul class="offer__list list-offer">
+					<li class="list-offer__item-list list-offer__item-list--gid">
+						<div>
+							<h3 class="list-offer__title">Опытный гид</h3>
+							<p class="list-offer__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+						</div>
+					</li>
+					<li class="list-offer__item-list list-offer__item-list--safe">
+						<div>
+							<h3 class="list-offer__title">Безопасный поход</h3>
+							<p class="list-offer__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+						</div>
+					</li>
+					<li class="list-offer__item-list list-offer__item-list--price">
+						<div>
+							<h3 class="list-offer__title">Лояльные цены</h3>
+							<p class="list-offer__text">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+						</div>
+					</li>
+				</ul>
+				<a href="#!" class="offer__btn btn btn--big">Стоимость программ</a>
+			</div>
+			<div class="offer__gallery">
+				<picture class="offer__img offer__img--first">
+					<source srcset="img/offer/01.avif" type="image/avif">
+					<source srcset="img/offer/01.webp" type="image/webp">
+					<img src="img/offer/01.jpg" alt="На фото изображена рука з картонным стаканчиком чая, на фоне бирюзовая вода скалы и горы" width="250" height="250" loading="lazy">
+				</picture>
+				<picture class="offer__img offer__img--second">
+					<source srcset="img/offer/02.avif" type="image/avif">
+					<source srcset="img/offer/02.webp" type="image/webp">
+					<img src="img/offer/02.jpg" alt="На фото изображен мужчина на вершине горы на фоне каньона. На дне каньона река" width="250" height="250" loading="lazy">
+				</picture>
+				<picture class="offer__img offer__img--third">
+					<source srcset="img/offer/03.avif" type="image/avif">
+					<source srcset="img/offer/03.webp" type="image/webp">
+					<img src="img/offer/03.jpg" alt="На фото изображен мужчина на снегоходе на фоне гор" width="250" height="250" loading="lazy">
+				</picture>
+				<picture class="offer__img offer__img--four">
+					<source srcset="img/offer/04.avif" type="image/avif">
+					<source srcset="img/offer/04.webp" type="image/webp">
+					<img src="img/offer/04.jpg" alt="На фото изображена река и горы" width="250" height="250" loading="lazy">
+				</picture>
+			</div>
+		</div>
+	</section>
+	<section class="page__rating rating" id="rating">
+		<div class="rating__container">
+			<h2 class="rating__title title">по версии отдыхающих</h2>
+			<h3 class="rating__subtitle subtitle">Популярные направления</h3>
+			<div class="rating__wrap-swiper">
+				<div class="swiper rating__swiper" data-mobile="false">
+					<div class="swiper-wrapper rating__items">
+						<article class="swiper-slide rating__item article-rating">
+							<div class="rating__grade">4.9</div>
+							<picture class="article-rating__img">
+								<source srcset="img/rating/01.avif" type="image/avif">
+								<source srcset="img/rating/01.webp" type="image/webp">
+								<img src="img/rating/01.jpeg" alt="На фото изображено озеро с прозрачной чистой водой в горах. По озеру плавают небольшие лодочки." width="380" height="500" loading="lazy">
+							</picture>
+							<div class="article-rating__descriptin" tabindex="0">
+								<h4 class="article-rating__title">Озеро возле гор</h4>
+								<div class="article-rating__text">романтическое приключение</div>
+								<div class="article-rating__price">480 $</div>
+								<p class="article-rating__text-active">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="#!" class="article-rating__btn">Программа тура</a>
+							</div>
+						</article>
+						<article class="swiper-slide rating__item article-rating">
+							<div class="rating__grade">4.5</div>
+							<picture class="article-rating__img">
+								<source srcset="img/rating/02.avif" type="image/avif">
+								<source srcset="img/rating/02.webp" type="image/webp">
+								<img src="img/rating/02.jpeg" alt="На фото изображена вершина горы покрытая снегом, на фоне звездного неба." width="380" height="500" loading="lazy">
+							</picture>
+							<div class="article-rating__descriptin" tabindex="0">
+								<h4 class="article-rating__title">Ночь в горах</h4>
+								<div class="article-rating__text">в компании друзей</div>
+								<div class="article-rating__price">480 $</div>
+								<p class="article-rating__text-active">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="#!" class="article-rating__btn">Программа тура</a>
+							</div>
+						</article>
+						<article class="swiper-slide rating__item article-rating">
+							<div class="rating__grade">5.0</div>
+							<picture class="article-rating__img">
+								<source srcset="img/rating/03.avif" type="image/avif">
+								<source srcset="img/rating/03.webp" type="image/webp">
+								<img src="img/rating/03.jpeg" alt="На фото изображено девушку на вершине горы. Девушка занимается йогой. Рассвет." width="380" height="500" loading="lazy">
+							</picture>
+							<div class="article-rating__descriptin" tabindex="0">
+								<h4 class="article-rating__title">Йога в горах</h4>
+								<div class="article-rating__text">для тех, кто забоится о себе</div>
+								<div class="article-rating__price">230 $</div>
+								<p class="article-rating__text-active">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="#!" class="article-rating__btn">Программа тура</a>
+							</div>
+						</article>
+						<article class="swiper-slide rating__item article-rating">
+							<div class="rating__grade">4.5</div>
+							<picture class="article-rating__img">
+								<source srcset="img/rating/02.avif" type="image/avif">
+								<source srcset="img/rating/02.webp" type="image/webp">
+								<img src="img/rating/02.jpeg" alt="На фото изображена вершина горы покрытая снегом, на фоне звездного неба." width="380" height="500" loading="lazy">
+							</picture>
+							<div class="article-rating__descriptin" tabindex="0">
+								<h4 class="article-rating__title">Ночь в горах</h4>
+								<div class="article-rating__text">в компании друзей</div>
+								<div class="article-rating__price">480 $</div>
+								<p class="article-rating__text-active">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="#!" class="article-rating__btn">Программа тура</a>
+							</div>
+						</article>
+						<article class="swiper-slide rating__item article-rating">
+							<div class="rating__grade">5.0</div>
+							<picture class="article-rating__img">
+								<source srcset="img/rating/03.avif" type="image/avif">
+								<source srcset="img/rating/03.webp" type="image/webp">
+								<img src="img/rating/03.jpeg" alt="На фото изображено девушку на вершине горы. Девушка занимается йогой. Рассвет." width="380" height="500" loading="lazy">
+							</picture>
+							<div class="article-rating__descriptin" tabindex="0">
+								<h4 class="article-rating__title">Йога в горах</h4>
+								<div class="article-rating__text">для тех, кто забоится о себе</div>
+								<div class="article-rating__price">230 $</div>
+								<p class="article-rating__text-active">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="#!" class="article-rating__btn">Программа тура</a>
+							</div>
+						</article>
+						<article class="swiper-slide rating__item article-rating">
+							<div class="rating__grade">4.9</div>
+							<picture class="article-rating__img">
+								<source srcset="img/rating/01.avif" type="image/avif">
+								<source srcset="img/rating/01.webp" type="image/webp">
+								<img src="img/rating/01.jpeg" alt="На фото изображено озеро с прозрачной чистой водой в горах. По озеру плавают небольшие лодочки." width="380" height="500" loading="lazy">
+							</picture>
+							<div class="article-rating__descriptin" tabindex="0">
+								<h4 class="article-rating__title">Озеро возле гор</h4>
+								<div class="article-rating__text">романтическое приключение</div>
+								<div class="article-rating__price">480 $</div>
+								<p class="article-rating__text-active">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+								<a href="#!" class="article-rating__btn">Программа тура</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<a href="#!" class="rating__btn btn btn--big">Рейтинг направлений</a>
+		</div>
+	</section>
+	<section class="page__blog blog" id="blog">
+		<div class="blog__container">
+			<h2 class="blog__title title">делимся впечатлениями</h2>
+			<h3 class="blog__subtitle subtitle">Блог о путешествиях</h3>
+			<div>
+				<div class="swiper blog__swiper" data-mobile="false">
+					<div class="swiper-wrapper blog__items">
+						<article class="swiper-slide blog__item item-blog">
+							<a href="#!" class="item-blog__card">
+								<picture class="item-blog__img">
+									<source srcset="img/blog/01.avif" type="image/avif">
+									<source srcset="img/blog/01.webp" type="image/webp">
+									<img src="img/blog/01.jpg" alt="На фото изображен город на вершине скалы." width="230" height="280" loading="lazy">
+								</picture>
+								<div class="item-blog__text">
+									<h4 class="item-blog__title">Красивая Италя, какая она в реальности?</h4>
+									<p class="item-blog__description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации. Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+									<div class="item-blog__footer">
+										<div class="item-blog__date">01/04/2023</div>
+										<div class="item-blog__link">читать статью</div>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="swiper-slide blog__item item-blog">
+							<a href="#!" class="item-blog__card">
+								<picture class="item-blog__img">
+									<source srcset="img/blog/02.avif" type="image/avif">
+									<source srcset="img/blog/02.webp" type="image/webp">
+									<img src="img/blog/02.jpg" alt="На фото изображен вид с иллюминатора самолета на облака и солнце которое за ними спряталось." width="230" height="280" loading="lazy">
+								</picture>
+								<div class="item-blog__text">
+									<h4 class="item-blog__title">Красивая Италя, какая она в реальности?</h4>
+									<p class="item-blog__description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+									<div class="item-blog__footer">
+										<div class="item-blog__date">01/04/2023</div>
+										<div class="item-blog__link">читать статью</div>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="swiper-slide blog__item item-blog">
+							<a href="#!" class="item-blog__card">
+								<picture class="item-blog__img">
+									<source srcset="img/blog/03.avif" type="image/avif">
+									<source srcset="img/blog/03.webp" type="image/webp">
+									<img src="img/blog/03.jpg" alt="На фото изображен человек идущий по узенькой улочке старого города." width="230" height="280" loading="lazy">
+								</picture>
+								<div class="item-blog__text">
+									<h4 class="item-blog__title">Красивая Италя, какая она в реальности?</h4>
+									<p class="item-blog__description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+									<div class="item-blog__footer">
+										<div class="item-blog__date">01/04/2023</div>
+										<div class="item-blog__link">читать статью</div>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="swiper-slide blog__item item-blog">
+							<a href="#!" class="item-blog__card">
+								<picture class="item-blog__img">
+									<source srcset="img/blog/04.avif" type="image/avif">
+									<source srcset="img/blog/04.webp" type="image/webp">
+									<img src="img/blog/04.jpg" alt="На фото изображен Тадж-Махал и фонтан перед ним." width="230" height="280" loading="lazy">
+								</picture>
+								<div class="item-blog__text">
+									<h4 class="item-blog__title">Красивая Италя, какая она в реальности?</h4>
+									<p class="item-blog__description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+									<div class="item-blog__footer">
+										<div class="item-blog__date">01/04/2023</div>
+										<div class="item-blog__link">читать статью</div>
+									</div>
+								</div>
+							</a>
+						</article>
+					</div>
+				</div>
+			</div>
+			<a href="#!" class="blog__btn btn btn--big">Другие материалы</a>
+		</div>
+	</section>
+	<section class="page__gallery gallery">
+		<div class="gallery__container">
+			<h2 class="gallery__title title">фото-отчет</h2>
+			<h3 class="gallery__subtitle subtitle">Делимся впечатлениями</h3>
+			<div class="gallery__swiper-wrap">
+				<div class="gallery__swiper swiper">
+					<div class="gallery__items swiper-wrapper">
+						<picture class="gallery__item gallery__item--large swiper-slide" data-path="photo-01">
+							<source srcset="img/gallery/01.avif" type="image/avif">
+							<source srcset="img/gallery/01.webp" type="image/webp">
+							<img src="img/gallery/01.jpg" alt="На фото изображены мужчина который фотографирует девушку, на фоне скалы. В небе летит много воздушных шаров (летательный аппарат)." width="580" height="250" loading="lazy">
+						</picture>
+						<picture class="gallery__item swiper-slide" data-path="photo-02">
+							<source srcset="img/gallery/02.avif" type="image/avif">
+							<source srcset="img/gallery/02.webp" type="image/webp">
+							<img src="img/gallery/02.jpg" alt="На фото изображены развёрнутая карта, фотоаппарат, карандаш, разные гиды для путешественников." width="280" height="250" loading="lazy">
+						</picture>
+						<picture class="gallery__item swiper-slide" data-path="photo-03">
+							<source srcset="img/gallery/03.avif" type="image/avif">
+							<source srcset="img/gallery/03.webp" type="image/webp">
+							<img src="img/gallery/03.jpg" alt="На фото изображена Бурдж Аль Араб – отель Парус в Дубае. С высоты птичьего полета." width="280" height="250" loading="lazy">
+						</picture>
+						<picture class="gallery__item swiper-slide" data-path="photo-04">
+							<source srcset="img/gallery/04.avif" type="image/avif">
+							<source srcset="img/gallery/04.webp" type="image/webp">
+							<img src="img/gallery/04.jpg" alt="Фото сверху. На фото изображен пляж с писком и пальмами. Возле берега стоят небольшие лодочки." width="280" height="250" loading="lazy">
+						</picture>
+						<picture class="gallery__item gallery__item--large swiper-slide" data-path="photo-05">
+							<source srcset="img/gallery/05.avif" type="image/avif">
+							<source srcset="img/gallery/05.webp" type="image/webp">
+							<img src="img/gallery/05.jpg" alt="На фото изображена девушка стоящая к нам спиной. Девушка смотрит на каньон, по дну которого протекает река." width="580" height="250" loading="lazy">
+						</picture>
+						<picture class="gallery__item swiper-slide" data-path="photo-06">
+							<source srcset="img/gallery/06.avif" type="image/avif">
+							<source srcset="img/gallery/06.webp" type="image/webp">
+							<img src="img/gallery/06.jpg" alt="На старом фото изображена развернутая карта, фотоаппарат, очки, дневник, снимки." width="280" height="250" loading="lazy">
+						</picture>
+					</div>
+				</div>
+			</div>
+			<div class="modals">
+				<div class="modals__overlay">
+					<picture class="modals__item" data-target="photo-01">
+						<source srcset="img/gallery/01.avif" type="image/avif">
+						<source srcset="img/gallery/01.webp" type="image/webp">
+						<img src="img/gallery/01.jpg" alt="На фото изображены мужчина который фотографирует девушку, на фоне скалы. В небе летит много воздушных шаров (летательный аппарат)." width="580" height="250" loading="lazy">
+					</picture>
+					<picture class="modals__item" data-target="photo-02">
+						<source srcset="img/gallery/02.avif" type="image/avif">
+						<source srcset="img/gallery/02.webp" type="image/webp">
+						<img src="img/gallery/02.jpg" alt="На фото изображены развёрнутая карта, фотоаппарат, карандаш, разные гиды для путешественников." width="280" height="250" loading="lazy">
+					</picture>
+					<picture class="modals__item" data-target="photo-03">
+						<source srcset="img/gallery/03.avif" type="image/avif">
+						<source srcset="img/gallery/03.webp" type="image/webp">
+						<img src="img/gallery/03.jpg" alt="На фото изображена Бурдж Аль Араб – отель Парус в Дубае. С высоты птичьего полета." width="280" height="250" loading="lazy">
+					</picture>
+					<picture class="modals__item" data-target="photo-04">
+						<source srcset="img/gallery/04.avif" type="image/avif">
+						<source srcset="img/gallery/04.webp" type="image/webp">
+						<img src="img/gallery/04.jpg" alt="Фото сверху. На фото изображен пляж с писком и пальмами. Возле берега стоят небольшие лодочки." width="280" height="250" loading="lazy">
+					</picture>
+					<picture class="modals__item" data-target="photo-05">
+						<source srcset="img/gallery/05.avif" type="image/avif">
+						<source srcset="img/gallery/05.webp" type="image/webp">
+						<img src="img/gallery/05.jpg" alt="На фото изображена девушка стоящая к нам спиной. Девушка смотрит на каньон, по дну которого протекает река." width="580" height="250" loading="lazy">
+					</picture>
+					<picture class="modals__item" data-target="photo-06">
+						<source srcset="img/gallery/06.avif" type="image/avif">
+						<source srcset="img/gallery/06.webp" type="image/webp">
+						<img src="img/gallery/06.jpg" alt="На старом фото изображена развернутая карта, фотоаппарат, очки, дневник, снимки." width="280" height="250" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<a href="#!" class="gallery__btn btn btn--big">Наш pinterest</a>
+		</div>
+	</section>
+	<section class="page__subscription subscription" id="subscrition">
+		<div class="subscription__container">
+			<header class="subscription__header">
+				<h2 class="subscription__title title">актуально</h2>
+				<h3 class="subscription__subtitle subtitle">Получайте полезные рассылки о путешествиях</h3>
+			</header>
+			<div class="subscription__body">
+				<form class="subscription__form" action="#" method="post">
+					<div class="subscription__blok-form">
+						<label class="subscription__label" for="email">Введите e-mail адрес</label>
+						<input class="subscription__input" id="email" name="email" type="email" placeholder="name@domain.com">
+					</div>
+					<button class="subscription__btn btn btn--big">Подписаться на новости</button>
+				</form>
+				<p class="subscription__text">подписываясь на новости, вы автоматически соглашаетесь <a href="#!" class="subscription__link">с условиями обработки персональных данных и правилами рекламных рассылок</a></p>
+			</div>
+		</div>
+	</section>
+</main>
