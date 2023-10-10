@@ -638,6 +638,9 @@
 		grid-column: 1/2;
 		margin-bottom: 70px;
 		transition: margin-bottom 0.7s linear;
+		.article-rating__descriptin:hover & {
+			margin-bottom: 30px;
+		}
 		.article-rating__descriptin--active & {
 			margin-bottom: 30px;
 		}
